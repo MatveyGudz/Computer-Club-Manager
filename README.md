@@ -10,27 +10,6 @@ This is a C++ program designed to manage events in a computer club. It processes
 - Tracks table usage and calculates daily revenue.
 - Reports errors when input data is invalid or when rules are violated (e.g., client arrives outside working hours, tries to use an occupied table, etc.).
 
-## Prerequisites
-
-- **Linux**: Ensure `gcc` or `clang` is installed.
-- **Windows**: Install `MinGW` or `Cygwin` for GCC support.
-
-## Compilation
-
-### Linux
-To compile the program on Linux:
-```bash
-g++ -std=c++17 -o club_manager club_manager.cpp
-```
-
-### Windows
-To compile the program on Windows using MinGW:
-```bash
-g++ -std=c++17 -o club_manager.exe club_manager.cpp
-```
-
-Ensure the `g++` executable is in your system's PATH.
-
 ## Execution
 
 Provide the path to the input file as an argument when running the program.
